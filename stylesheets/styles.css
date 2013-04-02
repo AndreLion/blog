@@ -822,6 +822,7 @@ section {
 
 p.image { text-align:center; }
 p.image a { display:inline-block; }
+div.share-buttons { text-align:right; }
 
 small {
   font-size: 12px;
