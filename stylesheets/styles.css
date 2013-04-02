@@ -791,6 +791,15 @@ header p {
   background: url(../images/octocat-logo.png);
 }
 
+#banner #avatar {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  display: block;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 section {
   width: 590px;
   padding: 30px 30px 50px 30px;
