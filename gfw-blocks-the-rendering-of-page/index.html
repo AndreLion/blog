@@ -40,7 +40,7 @@
 			Let’s take a look at <a href="http://www.webperformancetoday.com/" target="_blank">Web Performance Today</a> first. The <a href="http://www.webperformancetoday.com/about/" target="_blank">author of this blog</a> likes to <em>“explore the issues around optimization and to analyze the impact of website speed on user behaviour”</em>. But I bet he never tried to visit his own website from a particular country -- <strong>mainland China</strong>. If he did, he will see this instead: 
 		</p>
 		<p class="image">
-			<a href="images/performance-today-blocked-by-twitter-large.png" target="_blank"><img src="images/performance-today-blocked-by-twitter.png" height="" /></a>
+			<a href="images/performance-today-blocked-by-twitter-large.png" target="_blank"><img src="images/performance-today-blocked-by-twitter.png" height="436" /></a>
 		</p>
 		<p>
 			What did you see? The request of <a href="http://platform.twitter.com/widgets.js" target="_blank">widgets.js</a> from Twitter is pended, cause a 4.39 seconds blocking at least when rendering this page. During this period, visitors can see nothing but only the title in the first screen. That is unacceptable for visitors, especially for guys who advocate to web performance.
@@ -49,13 +49,13 @@
 			If you have enough patience, you will get all stuff downloaded (or failed downloaded) after <strong>6.3 minutes</strong>. <strong>The onload time of the page is 5 minutes</strong>. Also, you may notice that several javascript files could not be downloaded eventually, which are all hosted by Google, Facebook or Twitter.
 		</p>
 		<p class="image">
-			<a href="images/performance-today-waterfall-large.png" target="_blank"><img src="images/performance-today-waterfall.png" height="" /></a>
+			<a href="images/performance-today-waterfall-large.png" target="_blank"><img src="images/performance-today-waterfall.png" height="457" /></a>
 		</p>
 		<p>
 			This type of error can be found easily in many websites, even <a href="http://www.yottaa.com/about/yottaa-overview/" target="_blank">Yottaa</a>, a “<em>all-in-one web optimization solution</em>” that “<em>delivers speed, scale, security and actionable insight for any website</em>”, has the similar problem too. Page rendering is blocked for at least 22 seconds, which is a really long time because of being pended by the same widgets.js. <a href="http://www.yottaa.com/blog/bid/271932/Why-Your-Website-Is-Slow-Poor-First-Last-Byte-Performance" target="_blank">Why Your Website is Slow?</a> Yottaa should resolve his own problem first.
 		</p>
 		<p class="image">
-			<a href="images/yottaa-performance-fail-large.png" target="_blank"><img src="images/yottaa-performance-fail.png" height="" /></a>
+			<a href="images/yottaa-performance-fail-large.png" target="_blank"><img src="images/yottaa-performance-fail.png" height="303" /></a>
 		</p>
         <h1>Why This Happened</h1>
 		<hr>
