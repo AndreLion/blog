@@ -1,1 +1,1 @@
-Please visit my [GitHublog](http://andrelion.github.com/blog).
+Please visit my [GitHublog](http://andrelion.github.io/blog).
