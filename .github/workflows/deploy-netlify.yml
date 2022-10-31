@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Deploy Netlify
         run: |
-          curl -X GET "https://api.netlify.com/build_hooks/6360212e8209c02192d5160e"
+          curl -X POST -d {} https://api.netlify.com/build_hooks/6360259fadc55f24dd1dedc7
