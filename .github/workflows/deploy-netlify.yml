@@ -1,0 +1,15 @@
+name: deploy-netlify
+
+on:
+  workflow_run:
+    workflows: ["gh-pages"]
+    types: [completed]
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Deploy Netlify
+        run: |
+          curl -X GET "https://api.netlify.com/build_hooks/6360212e8209c02192d5160e"
