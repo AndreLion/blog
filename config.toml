@@ -1,4 +1,4 @@
-baseURL = 'https://andrelion.github.io/blog'
+baseURL = 'https://tekhou.se/blog'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "PaperMod"
