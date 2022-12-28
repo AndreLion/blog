@@ -1,4 +1,5 @@
 baseURL = 'https://tekhou.se/blog'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'tekhouse blog | tekhou.se'
 theme = "PaperMod"
+googleAnalytics = 'G-XPLR854FHL'
